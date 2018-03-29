@@ -1,0 +1,39 @@
+{
+  "name": "dom-autofocus",
+  "description": "focus an element when it enters the dom",
+  "version": "0.0.0",
+  "author": "Renée Kooi <renee@kooi.me>",
+  "bugs": {
+    "url": "https://github.com/goto-bus-stop/dom-autofocus/issues"
+  },
+  "devDependencies": {
+    "browserify": "^16.1.1",
+    "nanohtml": "^1.2.2",
+    "standard": "*",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0",
+    "tape-run": "^4.0.0"
+  },
+  "homepage": "https://github.com/goto-bus-stop/dom-autofocus",
+  "keywords": [
+    "autofocus",
+    "dom",
+    "element",
+    "focus",
+    "load",
+    "mutation-observer"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goto-bus-stop/dom-autofocus.git"
+  },
+  "scripts": {
+    "test": "standard && browserify test | tape-run | tap-spec"
+  },
+  "dependencies": {
+    "empty-element": "^1.0.0",
+    "on-load": "^3.4.0"
+  }
+}
