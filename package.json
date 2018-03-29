@@ -30,7 +30,7 @@
     "url": "https://github.com/goto-bus-stop/dom-autofocus.git"
   },
   "scripts": {
-    "test": "standard && browserify test | tape-run | tap-spec"
+    "test": "standard && node test | tap-spec && browserify test/browser | tape-run | tap-spec"
   },
   "dependencies": {
     "empty-element": "^1.0.0",

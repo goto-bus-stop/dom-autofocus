@@ -1,6 +1,7 @@
 var onload = require('on-load')
 
 module.exports = function autofocus (el, id) {
+  if (typeof window === 'undefined') return el
   if (typeof el !== 'object' || !el || !el.focus) {
     throw new TypeError('dom-autofocus: el should be a DOM element')
   }
