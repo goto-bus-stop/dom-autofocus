@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "browserify": "^16.1.1",
+    "empty-element": "^1.0.0",
     "nanohtml": "^1.2.2",
     "standard": "*",
     "tap-spec": "^4.0.2",
@@ -33,7 +34,6 @@
     "test": "standard && node test | tap-spec && browserify test/browser | tape-run | tap-spec"
   },
   "dependencies": {
-    "empty-element": "^1.0.0",
     "on-load": "^3.4.0"
   }
 }
