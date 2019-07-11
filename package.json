@@ -1,7 +1,7 @@
 {
   "name": "dom-autofocus",
   "description": "focus an element when it enters the dom",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "author": "Renée Kooi <renee@kooi.me>",
   "bugs": {
     "url": "https://github.com/goto-bus-stop/dom-autofocus/issues"
