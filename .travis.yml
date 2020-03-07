@@ -1,11 +1,12 @@
 language: node_js
+os: linux
+dist: xenial
 node_js:
   - '12'
   - '10'
   - '8'
   - '6'
-cache:
-  directories:
-    - ~/.npm
-before_script:
-  - export DISPLAY=:99.0; sh -e /etc/init.d/xvfb start
+script:
+  - xvfb-run --auto-servernum npm test
+services:
+  - xvfb
