@@ -7,7 +7,7 @@
     "url": "https://github.com/goto-bus-stop/dom-autofocus/issues"
   },
   "devDependencies": {
-    "browserify": "^16.3.0",
+    "browserify": "^17.0.0",
     "empty-element": "^1.0.0",
     "nanohtml": "^1.6.3",
     "standard": "^14.3.1",
