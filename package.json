@@ -34,6 +34,6 @@
     "test": "standard && node test | tap-spec && browserify test/browser | tape-run | tap-spec"
   },
   "dependencies": {
-    "on-load": "^4.0.2"
+    "on-load": "^5.0.0"
   }
 }
